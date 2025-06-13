@@ -1016,7 +1016,6 @@ According to the latest research, it goes much deeper than your ears: inside you
                             <li><a href="https://pesquisa.bvsalud.org/portal/resource/pt/wpr-533998">Zheng H, Tai H, Zeng S. The Effect of Astragalus Membranaceus and Angelica Sinensis on Grafted Cochlea Stem Cells Apoptosis in Hearing Impaired Rats. Journal of Audiology and Speech Pathology. 1998.</a></li>
 
                         </ol>
-
                     </div>
                 </div>
             </div>
@@ -1191,5 +1190,33 @@ document.addEventListener("DOMContentLoaded", function() {
     }, { once: true }); // só redireciona no primeiro clique
   });
 })();
+</script>
+
+<!-- Event snippet for Purchase conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17095817593/Ix7yCI-qncoaEPny9dc_',
+      'value': 1.0,
+      'currency': 'USD',
+      'transaction_id': ''
+  });
+</script>
+<!-- Event snippet for Purchase conversion page with function -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17095817593/Ix7yCI-qncoaEPny9dc_',
+      'value': 1.0,
+      'currency': 'USD',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
 </body></html>
